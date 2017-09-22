@@ -1,0 +1,47 @@
+watson zwraca:
+
+usage{dict}
+sentiment{dict}
+semantic_roles[list]
+	subject{dict}
+		text
+		keywords[list]
+			text
+		entities[list]
+			text
+			type
+			sentiment{dict}
+			relevance
+			emotion{dict}
+			disambiguation{dict}
+				subtype[list]
+				name
+				dbpedia_resource
+	sentence
+	action{dict}
+		verb{dict}
+			text
+			tense
+		text
+		normalized
+relations[list]
+
+language{dict}
+keywords[list]
+	text
+	sentiment{dict}
+	relevance
+	emotion{dict}
+entities[list]
+	text
+	type
+	sentiment{dict}
+	relevance
+	emotion{dict}
+	disambiguation{dict}
+		subtype[list]
+		name
+		dbpedia_resource
+	count
+
+
